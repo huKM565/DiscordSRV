@@ -98,11 +98,12 @@ public class PlayerDeathListener implements Listener {
                     .replace("%displaynamenoescapes%", displayName)
                     .replace("%world%", player.getWorld().getName())
                     .replace("%deathmessage%", MessageUtil.strip(needsEscape ? DiscordUtil.escapeMarkdown(finalDeathMessage) : finalDeathMessage))
-                    .replace("%deathmessageonlyascii%", MessageUtil.strip(finalDeathMessage.replaceAll("[^\\x00-\\x7F]", ""))
                     .replace("%deathmessagenoescapes%", MessageUtil.strip(finalDeathMessage))
                     .replace("%embedavatarurl%", avatarUrl)
                     .replace("%botavatarurl%", botAvatarUrl)
-                    .replace("%botname%", botName));
+                    .replace("%botname%", botName)
+                    .replace("%deathmessageonlyletters%", MessageUtil.strip(finalDeathMessage.replaceAll("[^\\x00-\\x7F\\u0400-\\u04FF]", "")));
+
             if (destinationChannel != null) content = DiscordUtil.translateEmotes(content, destinationChannel.getGuild());
             content = PlaceholderUtil.replacePlaceholdersToDiscord(content, player);
             return content;
