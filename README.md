@@ -1,10 +1,10 @@
 This fork add removing Unicode characters, leaving only ASCII characters and Russian letters in death discord embed.<br>
 This is used to remove symbols from the player's nickname, which are usually replaced by pictures in resource packs.
 
-Example before:
-    ⣿ huKM ⤀⤄⤈ died
-Example after:
-    huKM died
+Example before: <br>
+    ⣿ huKM ⤀⤄⤈ died <br>
+Example after: <br> 
+    huKM died <br>
 
 ![](https://lol.scarsz.me/AiKvTS/Logo-filled-stroke.png "DiscordSRV Logo")
 
