@@ -6,6 +6,15 @@ Example before: <br>
 Example after: <br> 
     huKM died <br>
 
+Usage - %deathmessageonlyletters%: <br>
+MinecraftPlayerDeathMessage: <br>
+... <br>
+Author: <br>
+ImageUrl: "%embedavatarurl%" <br> 
+Name: "%deathmessageonlyletters%"<br> 
+Url: "" <br> 
+... <br>
+
 ![](https://lol.scarsz.me/AiKvTS/Logo-filled-stroke.png "DiscordSRV Logo")
 
 [![](https://discord.com/api/guilds/135634590575493120/widget.png)](https://discordsrv.com/discord "Discord")
