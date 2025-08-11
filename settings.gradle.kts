@@ -1,1 +1,1 @@
-rootProject.name = "DiscordSRV-NoASCIIFork"
+rootProject.name = "DiscordSRV-NoUnicodeFork"

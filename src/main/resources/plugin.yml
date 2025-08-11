@@ -1,4 +1,4 @@
-name: DiscordSRV-NoASCIIFork
+name: DiscordSRV-NoUnicodeFork
 version: ${version}
 description: The most powerful, configurable, open-source Discord bridge plugin out there.
 author: Scarsz
